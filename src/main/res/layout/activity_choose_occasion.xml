@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmainscreentransparent"
+    tools:context=".ChooseOccasion">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="149dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Occasion"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/redish"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/birthdayButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/yellow"
+        android:checkable="true"
+        android:drawableLeft="@drawable/birthdayicon"
+        android:fontFamily="sans-serif-black"
+        android:text="Birthday"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/graduationButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/yellow"
+        android:drawableLeft="@drawable/graduationicon"
+        android:fontFamily="sans-serif-black"
+        android:text="Graduation"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/anniversaryButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/yellow"
+        android:drawableLeft="@drawable/anniversaryicon"
+        android:fontFamily="sans-serif-black"
+        android:text="Anniversary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
